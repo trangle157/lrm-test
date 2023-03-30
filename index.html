@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/258137d1e0.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1 {
+            font-size: 2.8125rem;
+        }
+
+        h2 {
+            font-size: 2.375rem;
+        }
+
+        .btn-link {
+            text-decoration: none;
+        }
+
+        .hero {
+            position: relative;
+        }
+
+        .btn-primary {
+            border-radius: 0;
+            color: white;
+            background-color: #f7941e;
+            border: none;
+            padding: 0.5rem 1rem;
+        }
+
+        .card .btn-primary {
+            border: 2px solid white;
+        }
+
+        .navbar {
+            background: transparent;
+        }
+
+        .navbar .nav-item .nav-link {
+            font-family: 'Roboto', sans-serif;
+            color: #6d6e71;
+        }
+
+        a.btn.btn-link {
+            color: #6d6e71;
+        }
+
+        .navbar .nav-item .nav-link:hover {
+            color: #f7941e;
+        }
+
+        img.hero-img {
+            position: absolute;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .card {
+            background-color: #f7941e;
+            color: white;
+            border: none;
+            box-shadow: none;
+            opacity: 89%;
+            border-radius: 0;
+        }
+
+        .card-body {
+            color: white;
+        }
+
+        .banner .card {
+            background-color: #666967;
+        }
+
+        .highlight {
+            color: #f7941e;
+        }
+
+        .side-card {
+            color: #333333;
+        }
+
+        @media screen and (min-width: 768px) {
+            .hero {
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid px-5">
+        <div class="container-fluid d-flex justify-content-md-end flex-md-row flex-sm-column align-items-end">
+            <a class="btn btn-link text-uppercase" href="tel:+1(817)-462-5422">call us (817)-462-5422</a>
+            <button type="button" class="btn btn-primary text-uppercase">
+                <span><i class="fa-sharp fa-light fa-envelope"></i></span>
+                quick contact
+            </button>
+        </div>
+        <nav class="navbar navbar-expand-lg text-uppercase">
+            <div
+                class="container-fluid px-0 d-flex flex-column justify-content-center flex-md-row justify-content-md-between">
+                <a class="navbar-brand w-sm-100 mx-0 text-center" href="#">
+                    <img class="w-100" src="assets/img/main_logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Careers</a></li>
+                                    <li><a class="dropdown-item" href="#">Our Team</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">History</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Residential Fencing</a></li>
+                                    <li><a class="dropdown-item" href="#">Commercial Fencing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Specials</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Resources
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Guide</a></li>
+                                    <li><a class="dropdown-item" href="#">How-to</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Woodfencing</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <main>
+        <div class="hero container-fluid px-0 w-100 d-flex flex-column justify-content-start">
+            <img class="hero-img h-100 w-100" src="assets/img/hero-image.jpg">
+            <div class="d-flex h-100 flex-direction-column justify-content-center align-items-center">
+                <section class="card px-4 py-2">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Residential and Commercial Fencing</h3>
+                        <p class="card-text text-uppercase">Service you can count on from start to finish</p>
+                        <div class="d-flex flex-column flex-md-row text-uppercase">
+                            <a href="#" class="mx-2 btn btn-primary">quick contact</a>
+                            <a href="#" class="mx-2 btn btn-primary">get free estimate</a>
+                            <a href="#" class="mx-2 btn btn-primary">financing</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="w-100 banner row mx-0 flex-column flex-md-row">
+                <div class="card col">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Residential fencing</h3>
+                        <p class="card-text">If you are just replacing your backyard privacy fence or securing your
+                            front
+                            yard with a driveway
+                            gate
+                            and operator we can handle it all.</p>
+                    </div>
+                </div>
+                <div class="card col">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Commercial Fencing</h3>
+                        <p class="card-text">We have developed a local reputation for delivering unparalleled quality
+                            and
+                            innovation while keeping our promise of service and competitive pricing.</p>
+                    </div>
+                </div>
+                <div class="card col">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Making a Difference</h3>
+                        <p class="card-text">We are honored to participate and serve in both local and international
+                            charitable organizations. A portion of every fence sold goes to help someone else.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="row container-fluid m-0 p-0">
+            <div class="col-sm-8 px-5 py-4">
+                <h2 class="highlight">Arlington’s Best Fence Company</h2>
+                <h4 class="my-4 highlight">Service you can count on from start to finish.</h4>
+                <p class="my-4">Link Right Fence is the service leader of Arlington’s fencing industry. Since 2003,
+                    we’ve
+                    upheld the
+                    standard for excellent service. We use the highest quality materials, employ professional
+                    installation crews, and communicate with our customers throughout the entire process. We specialize
+                    in Custom Residential Fencing, Commercial Fencing, and Custom Driveway Gate construction, and we
+                    work with Wood, Iron & Aluminum, Vinyl, Brick and Stone, Hardiplank, Chain-link, and Simtek
+                    materials.</p>
+                <p class="highlight">Contact us today for Service You Can Count On.</p>
+                <button type="button" class="btn btn-primary text-uppercase">
+                    QUICK CONTACT
+                </button>
+            </div>
+            <div class="side-card col px-5 py-4 d-flex flex-column justify-content-between"
+                style="background-color: #ddd7cc">
+                <div>
+                    <h3>Financing available</h3>
+                    <p>100% Fast & Easy Financing. Subject to credit approval.</p>
+                </div>
+                <div>
+                    <h3>Financing available</h3>
+                    <p>100% Fast & Easy Financing. Subject to credit approval.</p>
+                </div>
+                <div>
+                    <h3>Financing available</h3>
+                    <p class="my-0">100% Fast & Easy Financing. Subject to credit approval.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
